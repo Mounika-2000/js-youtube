@@ -26,7 +26,29 @@ let myObj={
 }
 
 const myFunction = function(){ // return type => function object
-    console.log("hello world!"); 
+    // console.log("hello world!"); 
 }
 
-console.log(typeof myFunction);
+// console.log(typeof myFunction);
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (primitive), Heap (non-primitive)
+
+let myYoutubeChannel="Mounika"
+let anotherChannel=myYoutubeChannel
+anotherChannel="mounika"
+
+// console.log(myYoutubeChannel);
+// console.log(anotherChannel);
+
+let user1 = {
+    email: "abc@gmail.com",
+    upi: "user1@kbl"
+}
+
+let user2 = user1
+user2.email="bdbhd@gmail.com"
+console.log(user1.email);
+console.log(user2.email);
