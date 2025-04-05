@@ -8,7 +8,7 @@ const myArr2=new Array(1,6,4,2) //no square brackets
 // myArr.push(7)
 // myArr.pop()
 myArr.unshift(9) // inserts at start of array, not so useful as all the values should be shifted
-myArr.shift() // removes inshift value
+myArr.shift() // removes start value of array
 // console.log(myArr);
 
 // console.log(myArr.includes(9));
