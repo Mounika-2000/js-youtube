@@ -52,7 +52,7 @@ const course={
     price:999,
     courseInstructor:"Mounika"
 }                     //  v can rename here
-const {courseInstructor : instructor}=course // Destructure
+const {courseInstructor : instructor}=course // Destructure: extract properties from an object and assign them to vaiables, and access the properties with the variables instead of dot notation
 // console.log(courseInstructor);
 console.log(instructor);
 
