@@ -23,7 +23,7 @@ const obj4={5:"a",6:"b"}
 // const obj3=Object.assign(obj1,obj2) // for concatinating 1 obj to another object
 // const obj3=Object.assign({},obj1,obj2,obj4)  // when 2 or more objects are there to concatinate, {} empty object acts as target
 const obj3={...obj1,...obj2,...obj4}     // spread operator (mostly used)
-console.log(obj3);
+// console.log(obj3);
 
 const users=[
     {
@@ -44,4 +44,29 @@ users[1].email
 // console.log(Object.keys(tinderUser)); // returns in array
 // console.log(Object.values(tinderUser));
 // console.log(Object.entries(tinderUser)); // gives array of arrays (each element in array)
-console.log(tinderUser.hasOwnProperty('isLoggedIn')); // to check if an object has a key/property
+// console.log(tinderUser.hasOwnProperty('isLoggedIn')); // to check if an object has a key/property
+
+// to destructure an object
+const course={
+    courseName:"js in hindi",
+    price:999,
+    courseInstructor:"Mounika"
+}                     //  v can rename here
+const {courseInstructor : instructor}=course // Destructure
+// console.log(courseInstructor);
+console.log(instructor);
+
+//APIs can be json/array
+//json
+// {
+//     "name: "mounika",
+//     "cousename":"js in hindi",
+//     "price": 999
+// }
+
+// Array
+[
+    {},
+    {},
+    {}
+]
