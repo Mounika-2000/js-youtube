@@ -1,4 +1,4 @@
-// filter method: selects specified values and returns, cannot modify
+// filter method: selects specified values and returns, cannot modify.
 
 // const arr=["js","ruby",'java','cpp']
 
